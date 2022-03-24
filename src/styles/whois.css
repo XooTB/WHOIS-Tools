@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+.domain-header {
+  margin-top: 0px;
+  padding: 20px;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  text-align: left;
+  background-color: rgb(206, 206, 206);
+  font-size: 20px;
+}
+.whois {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+/* .head {
+  font-family: "Ubuntu Mono", monospace;
+  margin-top: 0;
+  font-size: 60px;
+  color: rgb(199, 135, 76);
+  float: left;
+  width: 100%;
+} */
+
+.domaininfo {
+  width: 100%;
+}
+/* .src-box {
+  height: 20px;
+} */
+
+.info {
+  width: 55vw;
+  background-color: rgb(226, 226, 226);
+  border-radius: 10px;
+  margin: 10px 10px 0px 20px;
+}
+.main {
+  display: flex;
+  width: 100vw;
+}
+
+.IPSearch {
+  background-color: #bbbfca;
+  padding-bottom: 20px;
+  width: 100%;
+}
+
+/* Raw Data CSS */
+
+.RawData {
+  background: #f0f0f0;
+  font-size: 12px;
+  font-family: "Courier New", Courier, monospace;
+  width: 38vw;
+  overflow-x: auto;
+  margin: auto;
+  margin-top: 20px;
+  border: 1px solid rgb(20, 36, 54);
+  border-radius: 10px;
+}
+.Pre {
+  width: 100%;
+  word-wrap: break-word;
+  color: #434343;
+}
+
+/* IP Search CSS */
+.RawD {
+  background: #f0f0f0;
+  font-size: 14px;
+  font-family: "Courier New", Courier, monospace;
+  width: 96vw;
+  overflow-x: auto;
+  margin: auto;
+  border: 1px solid rgb(20, 36, 54);
+  border-radius: 10px;
+}
+
+.col-z {
+  background-color: #bbbfca;
+}
+
+.size-x {
+  width: 100%;
+}
