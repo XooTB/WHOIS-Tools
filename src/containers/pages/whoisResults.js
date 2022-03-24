@@ -13,7 +13,7 @@ const WhoisResults = () => {
   const [Data, SetData] = useState();
 
   useEffect(() => {
-    fetch(`https://tools.purpleit.com/api/whois/${domain}`)
+    fetch(`API`)
       .then((data) => data.json())
       .then((info) => {
         SetData(info[Object.keys(info)[1]]);

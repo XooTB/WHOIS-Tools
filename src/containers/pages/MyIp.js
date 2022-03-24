@@ -4,7 +4,7 @@ import { Rowx } from "../../components/Rows";
 const MyIP = () => {
   const [Deets, SetDeets] = useState();
   useEffect(() => {
-    fetch("https://tools.purpleit.com/api/myip/info")
+    fetch("API")
       .then((data) => data.json())
       .then((info) => SetDeets(info));
   }, []);

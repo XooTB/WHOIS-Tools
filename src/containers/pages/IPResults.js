@@ -6,7 +6,7 @@ const IPResults = () => {
   const [data, Setdata] = useState();
 
   useEffect(() => {
-    fetch(`https://tools.purpleit.com/api/whois/${ip}`)
+    fetch(`API`)
       .then((data) => data.json())
       .then((info) => JSON.stringify(info, null, 3))
       .then((info) => Setdata(info.replace(/[",{}+[\]]/g, "")));

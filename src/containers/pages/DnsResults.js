@@ -13,7 +13,7 @@ const DnsResults = () => {
   const { domain } = useParams();
   const [data, setData] = useState();
   useEffect(() => {
-    fetch(`https://tools.purpleit.com/api/dns/${domain}`)
+    fetch(`API`)
       .then((data) => data.json())
       .then((info) => setData(info));
   }, [domain]);
