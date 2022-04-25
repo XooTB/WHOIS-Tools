@@ -4,7 +4,7 @@ import { Rowx } from "../../components/Rows";
 const MyIP = () => {
   const [Deets, SetDeets] = useState();
   useEffect(() => {
-    fetch("API")
+    fetch(process.env.REACT_APP_API + 'myip/info')
       .then((data) => data.json())
       .then((info) => SetDeets(info));
   }, []);

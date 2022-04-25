@@ -6,7 +6,7 @@ const IPResults = () => {
   const [data, Setdata] = useState();
 
   useEffect(() => {
-    fetch(`API`)
+    fetch(process.env.REACT_APP_API + `whois/${ip}`)
       .then((data) => data.json())
       .then((info) => JSON.stringify(info, null, 3))
       .then((info) => Setdata(info.replace(/[",{}+[\]]/g, "")));

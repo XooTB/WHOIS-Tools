@@ -13,7 +13,7 @@ const WhoisResults = () => {
   const [Data, SetData] = useState();
 
   useEffect(() => {
-    fetch(`API`)
+    fetch(process.env.REACT_APP_API + `whois/${domain}`)
       .then((data) => data.json())
       .then((info) => {
         SetData(info[Object.keys(info)[1]]);

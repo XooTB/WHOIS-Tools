@@ -13,7 +13,7 @@ const DnsResults = () => {
   const { domain } = useParams();
   const [data, setData] = useState();
   useEffect(() => {
-    fetch(`API`)
+    fetch(process.env.REACT_APP_API + `dns/${domain}`)
       .then((data) => data.json())
       .then((info) => setData(info));
   }, [domain]);
