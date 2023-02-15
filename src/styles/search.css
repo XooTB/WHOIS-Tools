@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Open+Sans&family=Ubuntu+Mono:wght@700&display=swap");
+
+.src-icon {
+  width: 40px;
+  padding-top: 5px;
+  padding-left: 5px;
+}
+
+.src-box {
+  width: 40vw;
+  height: 50px;
+  border: none;
+  background-color: rgb(218, 218, 198);
+  /* margin-left: 18vw; */
+  border-radius: 15px;
+  color: rgb(36, 79, 116);
+  padding-left: 20px;
+}
+
+input:focus {
+  outline: none;
+}
+
+form {
+  width: 80vw;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.dns_search {
+  padding-top: 15vh;
+}
+
+.search_body {
+  width: 100%;
+}
+
+.head {
+  font-size: 50px;
+  font-family: "Courier New", Courier, monospace;
+}
