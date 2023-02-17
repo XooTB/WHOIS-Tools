@@ -4,4 +4,4 @@ A Simple Frontend for Getting the WHOIS Information of Domains. Built with React
 
 You can Find a Live Version at: https://tools.purpleit.com/ `This version is deprecated and not being maintaiend`
 
-Or, You can Also find an Updated Version At: https://whois-3d60.onrender.com/
+Or, You can find an Updated live version at: https://whois-tools.onrender.com
