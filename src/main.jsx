@@ -5,11 +5,14 @@ import "tachyons";
 import "./styles/index.css";
 import App from "./containers/App";
 import { WhoisProvider } from "./contexts/whoisContext";
+import { IpProvider } from "./contexts/ipContext";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <BrowserRouter>
     <WhoisProvider>
-      <App />
+      <IpProvider>
+        <App />
+      </IpProvider>
     </WhoisProvider>
   </BrowserRouter>
 );

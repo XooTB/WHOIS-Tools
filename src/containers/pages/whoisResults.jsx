@@ -25,8 +25,8 @@ const WhoisResults = () => {
       {/* If Loading */}
       {isLoading && (
         <div className="top_body">
-          <div className="loading">
-            <TwinSpin color="#00000" width="50px" height="50px" />
+          <div className="loading flex flex-column items-center w-100">
+            <TwinSpin color="#000000" width="50px" height="50px" />
             <p>Loading...</p>
           </div>
         </div>
