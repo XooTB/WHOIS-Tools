@@ -27,11 +27,11 @@ const Navbar = () => {
             My IP
           </Link>
         </li>
-        <li className="pa2 ma1 ">
+        {/* <li className="pa2 ma1 ">
           <Link to="/dnsinfo" className="link col-x">
             DNSinfo
           </Link>
-        </li>
+        </li> */}
       </ul>
     </div>
   );

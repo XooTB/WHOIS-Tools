@@ -21,14 +21,12 @@ const WhoisResults = () => {
   }, []);
 
   return (
-    <div>
+    <div className="w-100">
       {/* If Loading */}
       {isLoading && (
-        <div className="top_body">
-          <div className="loading flex flex-column items-center w-100">
-            <TwinSpin color="#000000" width="50px" height="50px" />
-            <p>Loading...</p>
-          </div>
+        <div className="loading flex flex-column items-center w-100">
+          <TwinSpin color="#000000" width="60px" height="60px" />
+          <p>Loading.....</p>
         </div>
       )}
       {/* // If not Loading */}

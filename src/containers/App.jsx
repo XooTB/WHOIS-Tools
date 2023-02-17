@@ -8,8 +8,8 @@ import Footer from "./Footer";
 import WhoisResults from "./pages/whoisResults";
 import IPResults from "./pages/IPResults";
 import MyIP from "./pages/MyIp";
-import DnsInfo from "./pages/DnsInfo";
-import DnsResults from "./pages/DnsResults";
+// import DnsInfo from "./pages/DnsInfo";
+// import DnsResults from "./pages/DnsResults";
 
 // Context Imports
 
@@ -30,8 +30,9 @@ function App() {
 
           {/* Other Function Results */}
           <Route path="/myip" exact element={<MyIP />} />
-          <Route path="/dnsinfo" exact element={<DnsInfo />} />
-          <Route path="/dnsinfo/:domain" exact element={<DnsResults />} />
+
+          {/* <Route path="/dnsinfo" exact element={<DnsInfo />} />
+          <Route path="/dnsinfo/:domain" exact element={<DnsResults />} /> */}
         </Routes>
       </main>
       <Footer />

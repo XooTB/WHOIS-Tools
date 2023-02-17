@@ -6,16 +6,7 @@ const Footer = () => {
       <ul className="list">
         <li className="">
           <Link to="/" className="link pa3 col-x">
-            Transfer
-          </Link>
-          <Link to="/" className="link pa3 col-x">
-            Domain Purchase
-          </Link>
-          <Link to="/" className="link pa3 col-x">
-            Transfers
-          </Link>
-          <Link to="/" className="link pa3 col-x">
-            Transfers
+            Made and maintined by Samiul Alim ©
           </Link>
         </li>
       </ul>
